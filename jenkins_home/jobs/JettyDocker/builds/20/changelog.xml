@@ -1,0 +1,11 @@
+commit f7852fdf196e3892cc68289a1925077e2dc0f78f
+tree 9a872ec9a74b0b70c5575d2fa4f2d2569e0aee77
+parent 106bd4d7d34aff65cf947315b5f0747809a1984d
+author yugq <yugq@fenqi.im> 2016-07-25 21:44:51 +0800
+committer yugq <yugq@fenqi.im> 2016-07-25 21:44:51 +0800
+
+    test the whole process from committing to docker push.
+
+
+
+:100644 100644 16578bd180d81eddc2c11fa8717e0861aac8c6cb 743ce78571f825cb8fa0be84fddedeb774ee8145 M	src/main/java/org/example/HelloWorld.java

@@ -1,0 +1,22 @@
+commit 106bd4d7d34aff65cf947315b5f0747809a1984d
+tree 3183df44ec55af8b95911d5356bce6e6739ad65c
+parent a4a64db7a0c1473f7255b0eb81898d1d5af52c11
+author yugq <yugq@fenqi.im> 2016-07-25 20:28:04 +0800
+committer yugq <yugq@fenqi.im> 2016-07-25 20:28:04 +0800
+
+    jenkins and docker build test
+
+
+
+:100644 100644 f896180843032dfbaf7aefdcc6a7a75e3a7f1340 16578bd180d81eddc2c11fa8717e0861aac8c6cb M	src/main/java/org/example/HelloWorld.java
+commit a4a64db7a0c1473f7255b0eb81898d1d5af52c11
+tree 06ce5e71c548d8b86f538ebe851eb1ab0bb1c026
+parent dbbf739ad30911c48165c505429a457ad84d58d8
+author yugq <yugq@fenqi.im> 2016-07-25 20:26:39 +0800
+committer yugq <yugq@fenqi.im> 2016-07-25 20:26:39 +0800
+
+    test jenkins + docker
+
+
+
+:100644 100644 2e276405f5259583266d1a140a9cae42585dc12c 25212c26cf78e9370c01fd57d47dfef3d066ab7f M	Dockerfile

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@1.17">
+  <hudsonUrl>http://192.168.99.100:8082/</hudsonUrl>
+  <smtpAuthUsername>flasheryu</smtpAuthUsername>
+  <smtpAuthPassword>nO8ebwGX+3Pr4WGU/C3txwQGfd5ctdzA11iEo1/Hu0c=</smtpAuthPassword>
+  <smtpHost>smtp.126.com</smtpHost>
+  <useSsl>false</useSsl>
+  <smtpPort>25</smtpPort>
+  <charset>UTF-8</charset>
+</hudson.tasks.Mailer_-DescriptorImpl>
