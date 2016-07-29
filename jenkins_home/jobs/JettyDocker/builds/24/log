@@ -1,0 +1,140 @@
+Started by user [8mha:AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZ+/dLi1CL9tJzE4ozUospSAGWpXKzEAAAA[0mGuoqing
+Building in workspace /var/jenkins_home/workspace/JettyDocker
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/flasheryu/jettyDocker # timeout=10
+Fetching upstream changes from https://github.com/flasheryu/jettyDocker
+ > git --version # timeout=10
+using .gitcredentials to set credentials
+ > git config --local credential.username flasheryu # timeout=10
+ > git config --local credential.helper store --file=/tmp/git8443046244819441032.credentials # timeout=10
+ > git -c core.askpass=true fetch --tags --progress https://github.com/flasheryu/jettyDocker +refs/heads/*:refs/remotes/origin/*
+ > git config --local --remove-section credential # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision a88e7c0289feb55086c55223c5604a8fd99a746d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a88e7c0289feb55086c55223c5604a8fd99a746d
+ > git rev-list a88e7c0289feb55086c55223c5604a8fd99a746d # timeout=10
+[JettyDocker] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/Maven3.3.9/bin/mvn clean package
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Jetty HelloWorld 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hello-world ---
+[INFO] Deleting /var/jenkins_home/workspace/JettyDocker/target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-world ---
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/JettyDocker/src/main/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hello-world ---
+[INFO] Changes detected - recompiling the module!
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/JettyDocker/target/classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-world ---
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/JettyDocker/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hello-world ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hello-world ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ hello-world ---
+[INFO] Building jar: /var/jenkins_home/workspace/JettyDocker/target/hello-world-0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-assembly-plugin:2.4.1:single (make-assembly) @ hello-world ---
+[INFO] Building jar: /var/jenkins_home/workspace/JettyDocker/target/hello-world-0.1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.258 s
+[INFO] Finished at: 2016-07-25T14:27:34+00:00
+[INFO] Final Memory: 15M/37M
+[INFO] ------------------------------------------------------------------------
+[JettyDocker] $ /bin/sh -xe /tmp/hudson5759470124193004814.sh
++ sudo docker build -t flasheryu/jettydocker --pull=true /var/jenkins_home/workspace/JettyDocker
+Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon  2.35 MB
+Step 1 : FROM java:8
+8: Pulling from library/java
+Digest: sha256:2b840b021b8753dd18da3491d362999980e6636b4a3064ff57bf17ea6dbce42f
+Status: Image is up to date for java:8
+ ---> 264282a59a95
+Step 2 : RUN apt-get -y update
+ ---> Using cache
+ ---> f329103d7abd
+Step 3 : RUN apt-get install -y maven
+ ---> Using cache
+ ---> a6a73d73b43a
+Step 4 : WORKDIR /code
+ ---> Using cache
+ ---> c2ebc9a5dacf
+Step 5 : ADD pom.xml /code/pom.xml
+ ---> Using cache
+ ---> ec0e7a7f058b
+Step 6 : ADD src /code/src
+ ---> Using cache
+ ---> 63adf54d1954
+Step 7 : RUN mvn package
+ ---> Using cache
+ ---> 6a1b188295f9
+Step 8 : CMD java -jar target/hello-world-0.1-SNAPSHOT-jar-with-dependencies.jar
+ ---> Using cache
+ ---> 12f381eb2dd9
+Successfully built 12f381eb2dd9
+[JettyDocker] $ /bin/sh -xe /tmp/hudson2690244554413069310.sh
++ awk {print $1}
++ grep 7070-
++ docker ps
++ sudo docker stop d6a0d8e21d68
+d6a0d8e21d68
+[JettyDocker] $ /bin/sh -xe /tmp/hudson8060235359499544619.sh
++ sudo docker run -d -p 7070:8080 flasheryu/jettydocker
+5401f4f6cbd96e292badb1428ce02810dd57c87743a7614df11e6a4e7568c638
+[JettyDocker] $ /bin/sh -xe /tmp/hudson8623226124624237806.sh
++ sudo docker push flasheryu/jettydocker
+The push refers to a repository [docker.io/flasheryu/jettydocker]
+9542b2d2193b: Preparing
+b2f39fdd5575: Preparing
+083ed9df6d0e: Preparing
+700270a07d76: Preparing
+3d84d0ff27e2: Preparing
+423de96e1d2c: Preparing
+de174b528b56: Preparing
+579acd833b28: Preparing
+2c969ffc364b: Preparing
+122dbad0a7b2: Preparing
+446c0d4b63e5: Preparing
+338cb8e0e9ed: Preparing
+d1c800db26c7: Preparing
+42755cf4ee95: Preparing
+423de96e1d2c: Waiting
+de174b528b56: Waiting
+579acd833b28: Waiting
+2c969ffc364b: Waiting
+122dbad0a7b2: Waiting
+446c0d4b63e5: Waiting
+338cb8e0e9ed: Waiting
+d1c800db26c7: Waiting
+42755cf4ee95: Waiting
+700270a07d76: Layer already exists
+083ed9df6d0e: Layer already exists
+423de96e1d2c: Layer already exists
+de174b528b56: Layer already exists
+2c969ffc364b: Layer already exists
+579acd833b28: Layer already exists
+122dbad0a7b2: Layer already exists
+b2f39fdd5575: Pushed
+446c0d4b63e5: Layer already exists
+d1c800db26c7: Layer already exists
+42755cf4ee95: Layer already exists
+338cb8e0e9ed: Layer already exists
+9542b2d2193b: Pushed
+Build was aborted
+Aborted by [8mha:AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZ+/dLi1CL9tJzE4ozUospSAGWpXKzEAAAA[0mGuoqing
+Finished: ABORTED
