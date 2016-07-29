@@ -1,0 +1,14 @@
+Started on Jul 25, 2016 2:03:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 106bd4d7d34aff65cf947315b5f0747809a1984d (refs/remotes/origin/master)
+using .gitcredentials to set credentials
+ > git --version # timeout=10
+ > git init /tmp/hudson7598215385588335748tmp # timeout=10
+ > git config --local credential.username flasheryu # timeout=10
+ > git config --local credential.helper store --file=/tmp/git660302614124395121.credentials # timeout=10
+ > git -c core.askpass=true ls-remote -h https://github.com/flasheryu/jettyDocker # timeout=10
+ > git config --local --remove-section credential # timeout=10
+Found 1 remote heads on https://github.com/flasheryu/jettyDocker
+[poll] Latest remote head revision on refs/heads/master is: f7852fdf196e3892cc68289a1925077e2dc0f78f
+Done. Took 3.3 sec
+Changes found
