@@ -1,91 +1,0 @@
-Started by user [8mha:AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZ+/dLi1CL9tJzE4ozUospSAGWpXKzEAAAA[0mGuoqing
-Building in workspace /var/jenkins_home/workspace/JettyDocker
- > git rev-parse --is-inside-work-tree # timeout=10
-Fetching changes from the remote Git repository
- > git config remote.origin.url https://github.com/flasheryu/jettyDocker # timeout=10
-Fetching upstream changes from https://github.com/flasheryu/jettyDocker
- > git --version # timeout=10
-using .gitcredentials to set credentials
- > git config --local credential.username flasheryu # timeout=10
- > git config --local credential.helper store --file=/tmp/git1945466624212945683.credentials # timeout=10
- > git -c core.askpass=true fetch --tags --progress https://github.com/flasheryu/jettyDocker +refs/heads/*:refs/remotes/origin/*
- > git config --local --remove-section credential # timeout=10
- > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
- > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
-Checking out Revision dbbf739ad30911c48165c505429a457ad84d58d8 (refs/remotes/origin/master)
- > git config core.sparsecheckout # timeout=10
- > git checkout -f dbbf739ad30911c48165c505429a457ad84d58d8
- > git rev-list dbbf739ad30911c48165c505429a457ad84d58d8 # timeout=10
-[JettyDocker] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/Maven3.3.9/bin/mvn clean package
-[INFO] Scanning for projects...
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Jetty HelloWorld 0.1-SNAPSHOT
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hello-world ---
-[INFO] Deleting /var/jenkins_home/workspace/JettyDocker/target
-[INFO] 
-[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-world ---
-[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/JettyDocker/src/main/resources
-[INFO] 
-[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hello-world ---
-[INFO] Changes detected - recompiling the module!
-[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 1 source file to /var/jenkins_home/workspace/JettyDocker/target/classes
-[INFO] 
-[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-world ---
-[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/JettyDocker/src/test/resources
-[INFO] 
-[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hello-world ---
-[INFO] No sources to compile
-[INFO] 
-[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hello-world ---
-[INFO] No tests to run.
-[INFO] 
-[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ hello-world ---
-[INFO] Building jar: /var/jenkins_home/workspace/JettyDocker/target/hello-world-0.1-SNAPSHOT.jar
-[INFO] 
-[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-assembly-plugin:2.4.1:single (make-assembly) @ hello-world ---
-[INFO] Building jar: /var/jenkins_home/workspace/JettyDocker/target/hello-world-0.1-SNAPSHOT-jar-with-dependencies.jar
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 8.669 s
-[INFO] Finished at: 2016-07-25T11:51:36+00:00
-[INFO] Final Memory: 15M/37M
-[INFO] ------------------------------------------------------------------------
-[JettyDocker] $ /bin/sh -xe /tmp/hudson8756121817923450893.sh
-+ sudo docker build -t flasheryu/jettydocker --pull=true /var/jenkins_home/workspace/JettyDocker
-Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.296 MB
-Step 1 : FROM java:8
-8: Pulling from library/java
-Digest: sha256:2b840b021b8753dd18da3491d362999980e6636b4a3064ff57bf17ea6dbce42f
-Status: Image is up to date for java:8
- ---> 264282a59a95
-Step 2 : RUN apt-get -y update
- ---> Using cache
- ---> f329103d7abd
-Step 3 : RUN apt-get install -y maven
- ---> Using cache
- ---> a6a73d73b43a
-Step 4 : WORKDIR /code
- ---> Using cache
- ---> c2ebc9a5dacf
-Step 5 : ADD pom.xml /code/pom.xml
- ---> Using cache
- ---> ec0e7a7f058b
-Step 6 : RUN mvn dependency:resolve
- ---> Running in c872c15a2464
-[INFO] Scanning for projects...
-Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.4.1/maven-assembly-plugin-2.4.1.pom
-3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.4.1/maven-assembly-plugin-2.4.1.pom (17 KB at 8.0 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom
-3/10 KB    5/10 KB   8/10 KB   10/10 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom (10 KB at 21.5 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom
-3/37 KB    5/37 KB   8/37 KB   11/37 KB   13/37 KB   16/37 KB   19/37 KB   21/37 KB   24/37 KB   27/37 KB   29/37 KB   32/37 KB   35/37 KB   37/37 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom (37 KB at 21.9 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom
-3/15 KB    5/15 KB   8/15 KB   Build was aborted
-Finished: ABORTED
