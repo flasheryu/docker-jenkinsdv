@@ -10,3 +10,7 @@ docker run --name jenkinsDV flasheryu/jenkinsdv
 
 ## Note
 The jenkins_home directory should contain all the configurations from your backup jenkins project.
+
+Password:
+flasheryu
+111111
