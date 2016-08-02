@@ -36,7 +36,7 @@
       <insensitiveSearch>false</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$yBeAe8AUlEXJV7VuoQtExO8p.E/XOuXjVncJjO0JxXM2a6P/6iBDu</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$DdaWzN64JgUtLdvxWIflcuQu2fgrrMSAMabF5TSrGK5nXitqK9ZMS</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.17">
       <emailAddress>yugq@fenqi.im</emailAddress>
