@@ -29,7 +29,7 @@
       <insensitiveSearch>false</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.17">
-      <emailAddress>yugq@fenqi.im</emailAddress>
+      <emailAddress>yugq@</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
   </properties>
 </user>
